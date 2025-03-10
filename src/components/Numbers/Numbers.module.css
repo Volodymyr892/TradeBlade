@@ -1,0 +1,47 @@
+.container{
+    padding: 23px 16px;
+    width: 375px;
+height: 368px;
+}
+.title{
+font-weight: 700;
+font-size: 28px;
+line-height: 1.3;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #000;
+margin-bottom: 2px;
+margin-top: 23px;
+}
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: -0.04em;
+    color: #000;
+    opacity: 0.5;
+}
+.list{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.name{
+    width: 153px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #000;
+    opacity: 0.8;
+    word-break: break-word;
+}
+.procent{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #6a54ff;
+}

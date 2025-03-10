@@ -1,0 +1,149 @@
+.container{
+height: 554px;
+background-color: #030718;
+padding: 40px 16px 34px 16px;
+}
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: white;
+
+}
+.description{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.3;
+color: #e7f7f8;
+opacity: 0.8;
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px; 
+    border-radius: 4px;
+width: 343px;
+height: 50px;
+    padding: 4px;
+    background-color: #201a4f;
+    margin-bottom: 12px;
+}
+.input{
+    color: white;
+    margin-left: 12px;
+    border: none;   /* Прибирає рамку */
+    outline: none;  /* Вимикає підсвічування при фокусі */
+    background: none;
+}
+.input::placeholder{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+opacity: 0.34;
+}
+.button{
+    border: 1px solid #57e1ff;
+    border-radius: 3px;
+    padding: 11px 24px;
+    width: 102px;
+    height: 42px;
+    box-shadow: 0 0 4px 0 #57e1ff;
+background-color:#57e1ff;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+text-transform: uppercase;
+color: #030718;
+}
+.free{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color:white;
+    opacity: 0.3;
+}
+.titleContainer{
+    margin-bottom: 24px;
+}
+
+
+.card {
+    position: relative;
+    width: 300px;
+height: 134px;
+margin-bottom: 33px;
+}
+.shadowCard{
+    padding: 6px 10px;
+border: 1px dashed #6a54ff;
+border-radius: 4px;
+width: 176px;
+height: 104px;
+opacity: 0.7;
+}
+.pair{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #6a54ff;
+    opacity: 0.7;
+}
+.position{
+font-weight: 400;
+font-size: 13px;
+line-height: 123%;
+color: #6a54ff;
+opacity: 0.7;
+margin-bottom: 20px;
+}
+.procent{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #6a54ff;
+    opacity: 0.7;
+}
+.mainCard{
+    position: absolute;
+    top:30px;
+    right: 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+width: 176px;
+height: 104px;
+background-color:  #6a54ff;
+}
+.pairQ{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color:white;
+}
+.positionQ{
+font-weight: 400;
+font-size: 13px;
+line-height: 123%;
+color:white;
+opacity: 0.6;
+margin-bottom: 20px;
+}
+.procentQ{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color:white;
+}

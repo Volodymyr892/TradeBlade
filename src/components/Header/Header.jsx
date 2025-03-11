@@ -33,13 +33,13 @@ export default function Header() {
                             </div>
                             <nav>
                                 <ul className={css.list}>
-                                    <li className={css.item}>Цифры</li>
-                                    <li className={css.item}>Сделки онлайн</li>
-                                    <li className={css.item}>о компании</li>
+                                    <li className={css.item}><a href="#numbers">Цифры</a></li>
+                                    <li className={css.item}><a href="#transaction">Сделки онлайн</a></li>
+                                    <li className={css.item}><a href="#compania">о компании</a></li>
                                     <li className={css.item}>как начать</li>
                                     <li className={css.item}>тарифы</li>
-                                    <li className={css.item}>отзывы</li>
-                                    <li className={css.item}>FAQ</li>
+                                    <li className={css.item}><a href="#tariffs">тарифы</a></li>
+                                    <li className={css.item}><a href="#faq">FAQ</a></li>
                                 </ul>
                             </nav>
                             <div className={css.containerButton}>
@@ -49,14 +49,23 @@ export default function Header() {
                         </div>
                 </>
             ):(
-                <nav className={css.menuDesk}>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+                <>
+                    <nav className={css.menuDesk}>
+                    <ul className={css.listDesc}>
+                        <li className={css.itemDesc}><a href="#numbers">Цифры</a></li>
+                        <li className={css.itemDesc}><a href="#transaction">Сделки онлайн</a></li>
+                        <li className={css.itemDesc}><a href="#compania">о компании</a></li>
+                        <li className={css.itemDesc}>как начать</li>
+                        <li className={css.itemDesc}>тарифы</li>
+                        <li className={css.itemDesc}><a href="#tariffs">тарифы</a></li>
+                        <li className={css.itemDesc}><a href="#faq">FAQ</a></li>
+                    </ul>
+                    </nav>
+                    <div className={css.containerButton}>
+                    <button className={css.login}>вход</button>
+                    <button className={css.register}>регистрация</button>
+                </div>
+                </>
             )}
         </header>
     )

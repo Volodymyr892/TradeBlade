@@ -1,0 +1,113 @@
+.container{
+    position: relative;
+height: 560px;
+padding: 40px 16px;
+background-color: #030718;
+}
+.containerNav{
+    display: flex;
+    gap:74px;
+    margin-bottom: 57px;
+}
+.title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.4;
+    width: 107px;
+}
+.list{
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.item{
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-transform: uppercase;
+color: white;
+}
+.img{
+margin-top: 20px;
+width: 165px;
+height: 80px;
+margin-bottom: 81px;
+}
+.copyright{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+color: white;
+opacity: 0.5;
+}
+.line{
+    position: absolute;
+    left: 0;
+    margin: 0;
+    opacity: 0.3;
+    width: 375px;
+}
+
+@media (min-width: 1439px) {
+    .container{
+        position: relative;
+        height: 353px;
+    padding: 28px 82px 40px 80px;
+    background-color: #030718;
+    }
+    .containerNav{
+        display: unset;
+        margin-bottom: 0;
+    }
+    .title{
+        margin-top: 16px;
+        width: 150px;
+        margin-bottom: 224px;
+    }
+    .list{
+    flex-direction:  row;
+    gap: 24px;
+    }
+    .item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: white;
+    }
+    .containerLogo{
+        position: relative;
+    }
+    .img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    margin-top: 0;
+    width: 165px;
+    height: 80px;
+    }
+    .copyright{
+        margin-top: 260px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    opacity: 0.5;
+    }
+    .line{
+        position: absolute;
+        left: 947px; 
+        top: 0;
+        width: 1px; 
+        height: 350px; 
+        background-color: white; 
+    }
+    .containerDesc{
+        display: flex;
+        justify-content: space-between;
+    }
+}

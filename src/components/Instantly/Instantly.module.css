@@ -1,5 +1,5 @@
 .container{
-height: 554px;
+height: 579px;
 background-color: #030718;
 padding: 40px 16px 34px 16px;
 }
@@ -13,7 +13,6 @@ padding: 40px 16px 34px 16px;
 
 }
 .description{
-    font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.3;
@@ -35,8 +34,8 @@ height: 50px;
 .input{
     color: white;
     margin-left: 12px;
-    border: none;   /* Прибирає рамку */
-    outline: none;  /* Вимикає підсвічування при фокусі */
+    border: none;   
+    outline: none; 
     background: none;
 }
 .input::placeholder{
@@ -146,4 +145,88 @@ margin-bottom: 20px;
     letter-spacing: -0.04em;
     text-transform: uppercase;
     color:white;
+}
+@media (min-width: 1439px) {
+    .container{
+        height: 738px;
+        background-color: #030718;
+        padding: 160px 80px 194px 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .title{
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    .label{
+        width: 500px;
+        height: 60px;
+    }
+    .input{
+        margin-left: 16px;
+    }
+    .input::placeholder{
+font-size: 16px;
+line-height: 1.2;
+    }
+    .button{
+padding: 16px 24px;
+width: 109px;
+height: 52px;
+font-size: 16px;
+line-height: 1.2;
+    }
+
+
+    .containerTitleForm{
+        width: 630px;
+        height: 384px;
+    }
+    
+    
+    .card {
+        width: 469px;
+height: 209px;
+    margin-bottom: 0;
+    }
+    .shadowCard{
+        padding: 15px 20px;
+    border-radius: 4px;
+    width: 280px;
+    height: 150px;
+    }
+    .pair{
+        font-size: 25px;
+        line-height: 1.4;
+    }
+    .position{
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    }
+    .procent{
+        font-size: 23px;
+        line-height: 1.4;
+
+    }
+    .mainCard{
+        top:60px;
+        padding: 15px 20px;
+        width: 280px;
+        height: 150px;
+    }
+    .pairQ{
+        font-size: 25px;
+        line-height: 1.4;
+    }
+    .positionQ{
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    .procentQ{
+        font-size: 23px;
+        line-height: 1.4;
+    }
 }

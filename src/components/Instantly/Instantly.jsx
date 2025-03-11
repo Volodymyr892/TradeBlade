@@ -14,18 +14,18 @@ export default function Instantly () {
                     <li className={css.procentQ}>+116%</li>
                 </ul>
             </div>
-            <div>
-               <div className={css.titleContainer}>
+            <div className={css.containerTitleForm}>
+                <div className={css.titleContainer}>
                     <h1 className={css.title}>моментально Копируй сделки профи трейдеров</h1>
                     <p className={css.description}>Начни копировать сделки с успешной командой профессиональных трейдеров в автоматическом режиме.</p>
-               </div>
-               <div>
+                </div>
+                <div>
                 <label className={css.label}>
                     <input className={css.input} type="text" placeholder="Ваш e–mail" />
                     <button className={css.button}>начать</button>
                 </label>
                 <p className={css.free}>5 дней бесплатного пользования</p>
-               </div>
+                </div>
             </div>
         </section>
     )

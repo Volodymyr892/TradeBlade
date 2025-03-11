@@ -4,15 +4,13 @@
     align-items: center;
 height: 52px;
 background-color: #030718;
-padding: 0 10px;
+padding: 0 80px;
 position: relative;
 }
 .burgerIcon{
     position: absolute;
     top:9px;
     right: 8px;
-    /* width: 32px;
-    height: 32px; */
     color: white;
     display: none;
     cursor: pointer;
@@ -30,12 +28,10 @@ position: relative;
     top: 0;
     right: 0;
     padding: 16px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     width: 375px;
     height: 667px;
 }
 .register{
-    /* font-family: var(--font-family); */
 font-weight: 500;
 font-size: 16px;
 line-height: 1.3;
@@ -57,25 +53,42 @@ text-transform: uppercase;
 color: #57e1ff;
     border: 2px solid  #57e1ff;
     border-radius: 3px;
-    padding: 16px 24px;
     width: 163px;
     height: 52px;
-    box-shadow: 0 0 4px 0 var(--q);
+    box-shadow: 0 0 4px 0  #57e1ff;
     background: rgba(87, 225, 255, 0.2);
 }
+.register{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #030718;
+            border: 1px solid #57e1ff;
+    border-radius: 3px;
+    padding: 11px 24px;
+    width: 146px;
+    height: 42px;
+        }
+        .login{
+    font-size: 14px;
+    line-height: 1.4;
+    color:  #57e1ff;
+            border: 1.50px solid  #57e1ff;
+            border-radius: 3px;
+            padding: 11px 24px;
+            width: 86px;
+            height: 42px;
+        }
 .containerButton{
     display: flex;
     gap: 16px;
 }
 .list{
     margin-bottom: 113px;
-    /* margin-top: 84px; */
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 .item{
-    /* font-family: var(--font-family); */
 font-weight: 500;
 font-size: 24px;
 line-height: 1.6;
@@ -83,16 +96,57 @@ text-transform: uppercase;
 color: white;
 }
 
+.listDesc{
+    display: flex;
+    gap: 32px;
+}
+.itemDesc{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+text-transform: uppercase;
+color: white;
+}
 @media (max-width: 1439px) {
+    .container{
+    height: 69px;
+    background-color: #030718;
+    padding: 0 16px;
+    }
+    .register{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.3;
+        text-transform: uppercase;
+        color: #030718;
+            border: none;
+            border-radius: 3px;
+        padding: 16px 24px;
+        width: 163px;
+        height: 52px;
+        box-shadow: 0 0 4px 0 #57e1ff;
+        background-color: #57e1ff;
+        }
+        .login{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-transform: uppercase;
+        color: #57e1ff;
+            border: 2px solid  #57e1ff;
+            border-radius: 3px;
+            width: 163px;
+            height: 52px;
+            box-shadow: 0 0 4px 0  #57e1ff;
+            background: rgba(87, 225, 255, 0.2);
+        }
+    
     .burgerIcon {
         display: block;
     }
 
     .menu {
         display: none; 
-    }
-    .menuDesk{
-
     }
     .menu.open {
         display: block;

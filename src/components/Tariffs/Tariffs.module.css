@@ -1,0 +1,251 @@
+.container{
+background-color: #030718;
+padding: 120px 16px 44px 16px;
+}
+.title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 24px;
+}
+.containerButton{
+    border-radius: 4px;
+width: 343px;
+height: 52px;
+    display: flex;
+    background-color: rgba(0, 123, 255, 0.4);
+padding: 4px;
+margin-bottom: 24px;
+}
+.spot{
+    border-radius: 4px;
+width: 167px;
+height: 44px;
+background-color:  #57e1ff;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #000;
+text-align: center;
+padding: 10px 0;
+}
+.futures{border-radius: 4px;
+    text-align: center;
+    width: 167px;
+    height: 44px;
+    background-color:  transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #57e1ff;
+    opacity: 0.8;
+    padding: 10px 0;
+}
+.containerStandart{
+    border: 1px solid  #6a54ff;
+border-radius: 8px;
+width: 343px;
+padding: 16px;
+margin-bottom: 20px;
+}
+.containerVip{
+    border-radius: 8px;
+width: 343px;
+height: 508px;
+padding: 16px;
+background-color: #6a54ff;
+}
+
+
+.titleStandart{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: white;
+    margin-bottom: 24px;
+}
+.list{
+display: flex;
+flex-direction: column;
+gap:16px;
+margin-bottom: 32px;
+}
+.listVip{
+    display: flex;
+flex-direction: column;
+gap:16px;
+margin-bottom: 32px;
+}
+.item{
+    position: relative;
+}
+.itemContainer{
+    display: flex;
+gap: 10px;
+}
+.line{
+    height: 2px;
+    opacity: 0.2;
+    border: 1px dashed white;
+    width: 342px;
+    left: -16px;
+    bottom: -8px;
+    position: absolute;
+    margin: 0;
+}
+.img{
+    width: 12px;
+    height: 12px;
+    color: white;
+}
+.descriptionStandart{
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: white;
+}
+.button{border: none;
+    border-radius: 3px;
+width: 310px;
+height: 52px;
+box-shadow: 0 0 4px 0  #57e1ff;
+background:  #57e1ff;
+}
+.try{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-transform: uppercase;
+color: #030718;
+}
+.free{
+font-weight: 400;
+font-size: 12px;
+line-height: 1.3;
+color: #030718;
+opacity: 0.56;
+}
+
+
+.containerselect{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.price{
+font-weight: 500;
+font-size: 35px;
+line-height: 1.1;
+letter-spacing: -0.04em;
+color: white;
+}
+.discount{
+    position: absolute;
+    top: 0;
+    left: 84px;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.1;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #35ff9e;
+}
+@media (min-width: 1439px) {
+    .container{
+        width: 1440px;
+        height: 940px;
+        background-color: #030718;
+        padding: 96px 297px;
+        }
+        .containerTraffic{
+            display: flex;
+            gap: 20px;
+        }
+        .title{      
+        font-size: 44px;
+            margin-bottom: 40px;
+        }
+        .containerButton{
+            width: 413px;
+            height: 52px;
+        margin-bottom: 44px;
+        }
+        .spot{   
+        width: 201px;
+font-size: 24px;
+line-height: 1.1;
+        padding: 8px 0;
+        }
+        .futures{
+            width: 201px;
+font-size: 24px;
+line-height: 1.1;
+        padding: 8px 0;
+        }
+        .containerStandart{
+            border: 1px solid  #6a54ff;
+            border-radius: 4px;
+            width: 413px;
+height: 556px;
+        margin-bottom: 0;
+        padding: 24px;
+        }
+        .containerVip{
+            border: 1px solid  #6a54ff;
+            border-radius: 4px;
+            width: 413px;
+            height: 556px;
+            margin-bottom: 0;
+            padding: 24px;
+        }
+        
+        
+        .titleStandart{
+font-size: 32px;
+line-height: 1.5;
+            margin-bottom: 56px;
+        }
+        .list{
+        margin-bottom: 120px;
+        }
+        .listVip{
+        margin-bottom: 48px;
+        }
+        .line{
+            width: 413px;
+            left: -24px;
+
+        }
+        .button{
+            width: 365px;
+            height: 52px;
+        }
+        .try{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #030718;
+        }
+        .free{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.3;
+        color: #030718;
+        opacity: 0.56;
+        }
+        
+        
+        .containerselect{
+            margin-bottom: 24px;
+        }
+}

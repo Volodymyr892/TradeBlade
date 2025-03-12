@@ -9,7 +9,7 @@ import Tariffs from "../Tariffs/Tariffs"
 import css from "./App.module.css"
 
 
-function App() {
+export default function App() {
 
   return (
     <div className={css.container}>
@@ -26,5 +26,3 @@ function App() {
     </div>
   )
 }
-
-export default App

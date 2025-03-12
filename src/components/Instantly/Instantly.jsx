@@ -1,8 +1,13 @@
 import css from "./Instantly.module.css"
+import line from "../../assets/line.svg"
+
+
 export default function Instantly () {
     return(
         <section className={css.container}>
             <div className={css.card}>
+                <img className={css.imgTop} src={line} alt="line" />
+                <img className={css.imgBottom} src={line} alt="line" />
                 <ul className={css.shadowCard} >
                     <li className={css.pair}>ETH/USDT</li>
                     <li className={css.position}>Short</li>

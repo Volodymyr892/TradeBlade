@@ -1,7 +1,22 @@
 import css from "./Numbers.module.css"
-import decor from "../../assets/Rectangle.svg"
-import { DiJavascript1 } from "react-icons/di"
+import decormob from "../../assets/Rectangle.svg"
+import decorDesc from "../../assets/RectangleDesc.svg"
+import { useEffect, useState } from "react";
+
+
 export default function Numbers() {
+    const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1440);
+    
+        useEffect(() => {
+            const handleResize = () => {
+                setIsLargeScreen(window.innerWidth > 1440);
+            };
+    
+            window.addEventListener("resize", handleResize);
+            return () => window.removeEventListener("resize", handleResize);
+        }, []);
+
+        const decor = isLargeScreen ? decorDesc : decormob 
     return(
         <section id="numbers" className={css.container}>
             <img className={css.img} src={decor} alt="decor" />

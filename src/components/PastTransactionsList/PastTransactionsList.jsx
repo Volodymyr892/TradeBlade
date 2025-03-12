@@ -14,14 +14,16 @@ const tradingsData = [
     { id: 8, pair: "DOT/USDT", type: "SPOT", timeframe: "3 мин. назад", profit: "47.9865%", goal: 4, entryDate: "10/01/2023" },
     { id: 9, pair: "AVAX/USDT", type: "SPOT", timeframe: "1 мин. назад", profit: "33.5721%", goal: 5, entryDate: "29/06/2023" },
     { id: 10, pair: "LTC/USDT", type: "SPOT", timeframe: "1 мин. назад", profit: "27.1403%", goal: 3, entryDate: "14/09/2022" }
-  ];
+];
+
+
 export default function PastTransactionsList() {
     return(
         <section id="transaction" className={css.container}>
             <h2 className={css.title}>Прошедшие сделки</h2>
             <p className={css.desc}>• Онлайн</p>
 
-             <div className={css.scrollContainer}>
+            <div className={css.scrollContainer}>
                 <ul className={css.scrollMenu}> 
                     {tradingsData.map((trading)=> (
                         <li key={trading.id}> 

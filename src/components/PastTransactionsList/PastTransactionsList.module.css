@@ -1,10 +1,10 @@
 .container{
-height: 437px;
-background-color: #030718;
-padding: 48px 0 54px 16px;
+    height: 437px;
+    background-color: #030718;
+    padding: 48px  0  54px 16px;
 }
 
-.scrollMenu {
+.scrollContainer{
     padding-bottom: 16px;
     overflow-x: auto;
     display: flex;
@@ -12,21 +12,26 @@ padding: 48px 0 54px 16px;
     list-style: none;
     margin: 0;
 }
+.scrollMenu {
+    display: flex;
+    gap: 60px;
+}
 
-.scrollMenu::-webkit-scrollbar {
+.scrollContainer::-webkit-scrollbar {
     height: 6px;
 }
 
-.scrollMenu::-webkit-scrollbar-thumb {
+.scrollContainer::-webkit-scrollbar-thumb {
     border-radius: 56px;
     background: #6073a1;
-    width: 61px;
+    min-width: 61px;
 }
 
-.scrollMenu::-webkit-scrollbar-track {
+.scrollContainer::-webkit-scrollbar-track {
     border-radius: 56px;
     background-color: #434f70;
     opacity: 0.4;
+    margin: 0 32px 0 16px;
 }
 .title{
     font-weight: 700;
@@ -47,33 +52,28 @@ padding: 48px 0 54px 16px;
 
 @media (min-width: 1439px) {
     .container{
-    height: 664px;
-    background-color: #030718;
-    padding: 96px 0 178px 80px;
+        height: 664px;
+        background-color: #030718;
+        padding: 96px 0 178px 80px;
     }
-    
     .scrollMenu {
         padding-bottom: 24px;
         gap: 20px;
     }
-    
-    
-    .scrollMenu::-webkit-scrollbar-thumb {
+    .scrollContainer::-webkit-scrollbar-thumb {
         border-radius: 56px;
         background: #6073a1;
-        width: 189px;
+        min-width: 189px;
     }
-    
-    .scrollMenu::-webkit-scrollbar-track {
+    .scrollContainer::-webkit-scrollbar-track {
         border-radius: 56px;
         background-color: #434f70;
         opacity: 0.4;
+        margin: 0 243px 0 162px;
     }
     .title{
-font-size: 44px;
-margin-bottom: 4px;
-
-
+        font-size: 44px;
+        margin-bottom: 4px;
     }
     .desc{
         margin-bottom: 72px;

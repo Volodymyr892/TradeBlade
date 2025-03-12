@@ -1,5 +1,7 @@
 import css from "./Footer.module.css"
 import logo from "../../assets/Logo.svg"
+
+
 export default function Footer() {
     return(
         <footer className={css.container}>
@@ -20,11 +22,12 @@ export default function Footer() {
                     </nav>
                 </div>
                     <hr className={css.line}/>
-               <div className={css.containerLogo}>
+                <div className={css.containerLogo}>
                     <img className={css.img} src={logo} alt="logo" />
                     <p className={css.copyright}>© 2022 TradeBlade. All rights reserved</p>
-               </div>
+                </div>
             </div>
+            <div className={css.lineBotom}></div>
         </footer>
     )
 }

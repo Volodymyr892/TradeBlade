@@ -2,6 +2,9 @@ import { useState } from "react";
 import css from "./Question.module.css"
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
+
+
+
 export default function Question() {
     const [openIndex, setOpenIndex] = useState(null);
 
